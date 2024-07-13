@@ -1,0 +1,106 @@
+#top {
+  /* 横幅 */
+  width: 800px;
+  /* 背景色 */
+  background-color: #dcc9f4;
+  /* 余白（上下：20px） */
+  padding: 20px auto;
+  /* 配置（中央） */
+  margin-left: auto;
+  margin-right: auto;
+  /* p要素の配置（中央） */
+  text-align: center;
+}
+
+.top-child {
+  /* 横幅 */
+  width: 20%;
+  /* 背景色 */
+  background-color: #ffd9df;
+  /* 表示形式（横並び） */
+  display: inline-block;
+}
+
+#middle {
+  /* 横幅 */
+  width: 800px;
+  /* 高さ */
+  height: 800px;
+  /* 余白（上下：20px）  */
+  margin: 20px auto;
+  /* 配置（中央） */
+  margin-left: auto;
+  margin-right: auto;
+  /* 背景色 */
+  background-color: #ffd9df;
+  /* 要素の位置指定 */
+  position: relative;
+}
+
+#middle-child01, #middle-child02, #middle-child03 {
+  /* 横幅 */
+  width: 200px;
+  /* 高さ */
+  height: 200px;
+  /* 背景色 */
+  background-color: #87ceeb;
+}
+
+#middle-child01 {
+  /* 要素の位置指定 */
+  position: absolute;
+  /* 位置情報 */
+  top: 100px;
+  left: 100px;
+}
+
+#middle-child02 {
+  /* 要素の位置指定 */
+  position: absolute;
+  /* 位置情報 */
+  top: 300px;
+  left: 300px;
+}
+
+#middle-child03 {
+  /* 要素の位置指定 */
+  position: absolute;
+  /* 位置情報 */
+  top: 500px;
+  left: 500px;
+}
+
+#bottom {
+  /* 横幅 */
+  width: 800px;
+  /* 高さ */
+  height: 300px;
+  /* 配置（中央） */
+  margin-left: auto;
+  margin-right: auto;
+  /* 背景色 */
+  background-color: #87ceeb;
+}
+
+#bottom-child01, #bottom-child02, #bottom-child03 {
+  /* 横幅 */
+  width: 400px;
+  /* 高さ*/
+  height: 100px;
+  /* 背景色 */
+  background-color: #e5dcf0;
+}
+
+#bottom-child02 {
+  /* 要素の位置指定 */
+  position: relative;
+  /* 位置情報 */
+  left: 200px;
+}
+
+#bottom-child03 {
+  /* 要素の位置指定 */
+  position: relative;
+  /* 位置情報 */
+  left: 400px;
+}
